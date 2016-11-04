@@ -9,17 +9,17 @@ npm i --save-dev gulp-octorelease
 # Usage
 
 Import it:
-```zsh
+```javascript
 import release from 'gulp-octorelease';
 ```
 
 Or if you are using CommonJS modules, require it like this:
-```zsh
+```javascript
 const release = require('gulp-octorelease').default;
 ```
 
-Usage EX:
-```zsh
+EX:
+```javascript
 
 const manifest = require('package.json');
 
